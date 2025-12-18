@@ -77,7 +77,7 @@ if __name__ == '__main__':
     print("🤖 COMPLETE ML PIPELINE\n")
     
     # Load data
-    # Buscar carpeta base \'data engineer\'
+    # Buscar carpeta base 'data engineer'
 
     current_path = Path(__file__).resolve()
 
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     for parent in current_path.parents:
 
-        if parent.name == \'data engineer\':
+        if parent.name == 'data engineer':
 
             base_path = parent
 
@@ -93,8 +93,8 @@ if __name__ == '__main__':
 
     if base_path is None:
 
-        raise FileNotFoundError("No se pudo encontrar la carpeta base \'data engineer\'")
-    data_path = base_path / '02-analisis-datos/01-eda-exploratorio/proyecto-01-ventas-retail/data/raw/transacciones.csv'
+        raise FileNotFoundError("No se pudo encontrar la carpeta base 'data engineer'")
+    data_path = base_path / '02-analisis-datos' / '01-eda-exploratorio' / 'proyecto-01-ventas-retail' / 'data' / 'raw' / 'transacciones.csv'
     
     if data_path.exists():
         df = pd.read_csv(data_path)

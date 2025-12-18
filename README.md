@@ -1,9 +1,9 @@
 # Data Engineering Portfolio
 
-A comprehensive collection of **61 data engineering projects** demonstrating end-to-end data pipelines, analytics, big data processing, and cloud infrastructure.
+A comprehensive collection of **60 data engineering projects** demonstrating end-to-end data pipelines, analytics, big data processing, and cloud infrastructure.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
-![Projects](https://img.shields.io/badge/Projects-61-brightgreen.svg)
+![Projects](https://img.shields.io/badge/Projects-60-brightgreen.svg)
 ![Code](https://img.shields.io/badge/Code-14k+_lines-orange.svg)
 
 ## Overview
@@ -12,8 +12,8 @@ This portfolio showcases practical implementations across the full data engineer
 
 - **9** Python fundamentals projects (basic to advanced)
 - **18** data analysis and ML projects
-- **12** data engineering pipelines
-- **12** big data processing systems
+- **7** data engineering pipelines
+- **9** big data processing systems
 - **12** cloud computing implementations
 - **5** end-to-end integrator projects
 
@@ -45,8 +45,8 @@ python src/eda_completo.py   # Run analysis
 | ------------------- | --------- | ------- |
 | 🐍 **Python**       | 9/9       | ✅ 100% |
 | 📊 **Análisis**     | 18/18     | ✅ 100% |
-| 🔧 **Engineering**  | 12/12     | ✅ 100% |
-| ⚡ **Big Data**     | 12/12     | ✅ 100% |
+| 🔧 **Engineering**  | 7/7       | ✅ 100% |
+| ⚡ **Big Data**     | 9/9       | ✅ 100% |
 | ☁️ **Cloud**        | 12/12     | ✅ 100% |
 | 🏪 **Integradores** | 5/5       | ✅ 100% |
 
@@ -55,9 +55,9 @@ python src/eda_completo.py   # Run analysis
 ```
 📁 01-python-fundamentos/     # Python básico → avanzado (9)
 📁 02-analisis-datos/         # EDA, ML, viz, forecasting (18)
-📁 03-ingenieria-datos/       # ETL, DBs, APIs, quality (12)
+📁 03-ingenieria-datos/       # ETL, DBs, APIs, quality (7)
 📁 04-cloud-computing/        # AWS, GCP, Azure, Terraform (12)
-📁 05-big-data-avanzado/      # Spark, Kafka, Hadoop, Hive (12)
+📁 05-big-data-avanzado/      # Spark, Kafka, Hadoop, Hive (9)
 📁 06-proyectos-integradores/ # Sistemas end-to-end (5)
 📁 datasets-ejemplo/          # 675k+ registros
 ```
@@ -178,13 +178,14 @@ cd 06-proyectos-integradores/              # End-to-end
 
 ## 🏆 Key Achievements
 
-- **61 production-ready projects** with executable code
+- **60 production-ready projects** with executable code
 - **14,000+ lines** of tested Python code
 - **90+ comprehensive** READMEs
 - **675k+ synthetic** data records
 - **50+ modern technologies** from the 2024 stack
 - **Multi-cloud coverage**: AWS, GCP, Azure
 - **Full spectrum**: Python basics → distributed systems
+- **Clean structure**: No duplicates, all numbered sequentially
 
 ## 📝 License
 
@@ -192,4 +193,4 @@ MIT License - Feel free to use this portfolio as reference for your own learning
 
 ---
 
-**Data Engineering Portfolio** | 61 Projects | 14k+ Lines | Production-Ready Code
+**Data Engineering Portfolio** | 60 Projects | 14k+ Lines | Production-Ready Code

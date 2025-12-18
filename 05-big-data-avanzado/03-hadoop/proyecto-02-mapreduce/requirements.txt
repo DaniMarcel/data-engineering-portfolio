@@ -1,0 +1,2 @@
+# No dependencies - pure Python
+# For actual Hadoop: requires Hadoop cluster

@@ -1,0 +1,2 @@
+# Terraform CLI tool required
+# Download from: terraform.io

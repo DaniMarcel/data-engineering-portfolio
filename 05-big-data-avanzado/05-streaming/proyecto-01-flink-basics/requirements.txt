@@ -1,0 +1,2 @@
+# For actual Flink: apache-flink>=1.18.0
+# This example uses standard Python for simulation

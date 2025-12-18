@@ -1,0 +1,3 @@
+# For production streaming:
+# kafka-python>=2.0.0
+# apache-flink>=1.18.0

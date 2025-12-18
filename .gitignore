@@ -1,0 +1,234 @@
+# ===================================
+# Data Engineering Portfolio - .gitignore
+# ===================================
+
+# ============== Python ==============
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============== Data Files ==============
+# Large data files (keep generators, not outputs)
+*.csv
+*.parquet
+*.json
+*.jsonl
+*.arrow
+*.feather
+*.hdf5
+*.h5
+
+# Excepción: mantener archivos de configuración JSON pequeños
+!**/config.json
+!**/settings.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ============== Output Files ==============
+# Generated outputs
+output/
+outputs/
+logs/
+*.log
+
+# Reports
+*.xlsx
+*.xls
+*.pdf
+*.html
+
+# Images and visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Excepción: mantener imágenes en README o docs
+!docs/*.png
+!screenshots/*.png
+!**/README_*.png
+
+# ============== ML Models ==============
+# Trained models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.model
+*.ckpt
+*.pth
+*.weights
+
+# Model artifacts
+mlruns/
+models/
+checkpoints/
+
+# ============== Notebooks ==============
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Jupyter Notebook outputs (opcional)
+# Descomenta si quieres mantener notebooks limpios
+# *.ipynb
+
+# ============== Big Data ==============
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Hadoop
+*.jar
+*.war
+
+# Kafka
+kafka-logs/
+
+# ============== Cloud & Docker ==============
+# Docker
+.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Cloud credentials (IMPORTANTE: NUNCA SUBIR!)
+*.pem
+*.key
+.env
+.env.local
+credentials.json
+service-account.json
+
+# AWS
+.aws/
+
+# GCP
+.gcloud/
+
+# Azure
+.azure/
+
+# ============== OS Files ==============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============== Testing ==============
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+.pytest_cache/
+
+# ============== Temporary Files ==============
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# ============== Specific to this Portfolio ==============
+# Keep generators but ignore generated data
+!datasets-ejemplo/generar_datasets.py
+datasets-ejemplo/*.csv
+datasets-ejemplo/*.parquet
+datasets-ejemplo/*.json
+
+# Keep data generation scripts in all projects
+!**/generar_datos.py
+!**/src/generar*.py
+
+# Ignore all data directories except scripts
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+
+# ============== Performance ==============
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Redis dumps
+dump.rdb
+
+# ============== Documentation (Keep!) ==============
+# Mantener todos los README
+!README.md
+!**/README.md
+!QUICKSTART.md
+!LICENSE
+
+# ============== Notes ==============
+# Personal notes (si tienes)
+notes.txt
+TODO.txt
+PRIVATE.md

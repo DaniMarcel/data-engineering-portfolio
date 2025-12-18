@@ -1,0 +1,1 @@
+# For production: azure-mgmt-datafactory>=2.0.0

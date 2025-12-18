@@ -1,0 +1,3 @@
+# No external dependencies - Python standard library only
+# Optional: For data validation
+# pydantic>=2.5.0

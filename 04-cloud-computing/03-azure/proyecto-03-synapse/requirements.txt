@@ -1,0 +1,1 @@
+# For production: azure-synapse-spark>=0.7.0

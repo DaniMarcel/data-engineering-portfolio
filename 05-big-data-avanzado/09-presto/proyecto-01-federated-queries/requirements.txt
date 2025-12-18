@@ -1,0 +1,2 @@
+# Requires Presto/Trino cluster
+# presto-python-client>=0.8.0

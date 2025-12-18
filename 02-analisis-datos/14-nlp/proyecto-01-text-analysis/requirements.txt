@@ -1,0 +1,2 @@
+# No dependencies - uses standard library
+# For advanced NLP: pip install nltk spacy

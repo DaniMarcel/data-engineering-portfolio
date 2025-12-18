@@ -9,6 +9,12 @@ __pycache__/
 *$py.class
 *.so
 
+# Utility scripts (cleanup/fixes)
+fix_all_paths.py
+fix_numbering.py
+check_empty_folders.py
+clean_and_renumber.py
+
 # Distribution / packaging
 .Python
 build/

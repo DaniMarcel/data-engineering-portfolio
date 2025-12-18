@@ -1,23 +1,45 @@
-# 🎓 Portafolio de Ingeniería de Datos
+# Data Engineering Portfolio
+
+A comprehensive collection of **61 data engineering projects** demonstrating end-to-end data pipelines, analytics, big data processing, and cloud infrastructure.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Projects](https://img.shields.io/badge/Projects-61-brightgreen.svg)
-![Coverage](https://img.shields.io/badge/Coverage-100%25-success.svg)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
-![Lines](https://img.shields.io/badge/Lines-13k+-blue.svg)
+![Code](https://img.shields.io/badge/Code-14k+_lines-orange.svg)
 
-**Portafolio completo con 61 proyectos** cubriendo todo el espectro de ingeniería de datos: Python, análisis, engineering, Big Data, y Cloud.
+## Overview
 
-## 🎯 Resumen Ejecutivo
+This portfolio showcases practical implementations across the full data engineering stack:
 
-✅ **61 proyectos completados** (100% del plan)  
-✅ **13,000+ líneas** de código production-ready  
-✅ **85+ READMEs** detallados  
-✅ **675,000+ registros** de datos sintéticos  
-✅ **50+ tecnologías** del stack moderno  
-✅ **100% cobertura** en todas las áreas
+- **9** Python fundamentals projects (basic to advanced)
+- **18** data analysis and ML projects
+- **12** data engineering pipelines
+- **12** big data processing systems
+- **12** cloud computing implementations
+- **5** end-to-end integrator projects
 
-## 📊 Cobertura Completa
+**Tech Stack**: Python, Pandas, PySpark, Kafka, Docker, AWS, GCP, Azure, Airflow, Prefect, PostgreSQL, MongoDB, Redis, Terraform, and 40+ more technologies.
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/DaniMarcel/data-engineering-portfolio.git
+cd data-engineering-portfolio
+
+# Generate sample datasets
+cd datasets-ejemplo
+python generar_datasets.py
+
+# Try a project (example: EDA)
+cd ../02-analisis-datos/01-eda-exploratorio/proyecto-01-ventas-retail
+pip install -r requirements.txt
+python src/generar_datos.py  # Generate e-commerce data
+python src/eda_completo.py   # Run analysis
+```
+
+**See [QUICKSTART.md](QUICKSTART.md) for detailed instructions on running each project.**
+
+## Portfolio Structure
 
 | Área                | Proyectos | Status  |
 | ------------------- | --------- | ------- |
@@ -154,20 +176,20 @@ cd 05-big-data-avanzado/01-apache-spark/   # Spark
 cd 06-proyectos-integradores/              # End-to-end
 ```
 
-## 📊 Siguientes Pasos
+## 🏆 Key Achievements
 
-El portafolio está **100% completo**. Para expandir:
+- **61 production-ready projects** with executable code
+- **14,000+ lines** of tested Python code
+- **90+ comprehensive** READMEs
+- **675k+ synthetic** data records
+- **50+ modern technologies** from the 2024 stack
+- **Multi-cloud coverage**: AWS, GCP, Azure
+- **Full spectrum**: Python basics → distributed systems
 
-1. Profundizar proyectos existentes
-2. Añadir deployment real
-3. CI/CD pipelines
-4. Monitoring & observability
-5. Kubernetes & containers
+## 📝 License
+
+MIT License - Feel free to use this portfolio as reference for your own learning journey.
 
 ---
 
-**🌟 Portafolio profesional completo demostrando dominio total en Data Engineering 🌟**
-
-**61 proyectos | 13k+ líneas | 85+ docs | 675k+ datos | 100% coverage**
-
-_Built with dedication for professional development in Data Engineering_
+**Data Engineering Portfolio** | 61 Projects | 14k+ Lines | Production-Ready Code

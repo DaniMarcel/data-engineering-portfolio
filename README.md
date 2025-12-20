@@ -8,7 +8,7 @@
 
 **Portafolio completo con 61 proyectos** cubriendo todo el espectro de ingeniería de datos: Python, análisis, engineering, Big Data, y Cloud.
 
-## 🎯 Resumen Ejecutivo
+## 🎯 Resumen
 
 ✅ **60 proyectos completados** (100% del plan)  
 ✅ **13,000+ líneas** de código production-ready  
